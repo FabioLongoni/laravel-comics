@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/games',function(){
     $data = [
-        'games' => config('videoGames')
+        'games' => config('comics')
     ];
     return view('games',$data);
 });
