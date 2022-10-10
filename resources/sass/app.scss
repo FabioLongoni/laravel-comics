@@ -1,7 +1,7 @@
 @import'./partials/variables';
 @import'./header';
 @import'./footer';
-@import'./games';
+@import'./comics';
 
 * {
   margin: 0;
@@ -26,4 +26,5 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }

@@ -6,9 +6,11 @@
     $links = [
       [
         'text' => 'characters',
+        'routeName' => 'home'
       ],
       [
         'text' => 'comics',
+        'routeName'=> 'comics'
       ],
       [
         'text' => 'movies',
@@ -39,11 +41,12 @@
 
     <ul class="nav-bar-header">
       @foreach($links as $link)
-      <li class="list-item {{ $loop->first ? 'active' : '' }}">
-          <a class="">
-              {{ $link['text'] }}
+        <li class="list-item {{ $loop->first ? 'active' : '' }}">
+          <a class="" 
+            href="{{isset($link['routeName']) ? route($link['routeName']) : '/'}}">
+            {{ $link['text'] }}
           </a>
-      </li>
+        </li>
       @endforeach
     </ul>
     

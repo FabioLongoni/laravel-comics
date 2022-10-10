@@ -108,15 +108,15 @@
           'text'=> "dc merchandise"
         ],
         [
-          'image'=> 'img/buy-comics-merchandise.png',
+          'image'=> 'img/buy-comics-subscriptions.png',
           'text'=> "subscription"
         ],
         [
-          'image'=> 'img/buy-comics-merchandise.png',
+          'image'=> 'img/buy-comics-shop-locator.png',
           'text'=> "comic shop locator"
         ],
         [
-          'image'=> 'img/buy-comics-merchandise.png',
+          'image'=> 'img/buy-dc-power-visa.svg',
           'text'=> "dc power visa"
         ]
     ];

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('mataTitle','DcComics - Games')
+@section('mataTitle','DcComics - Comics')
 
 @section('content')
 <section class="main__content">
@@ -8,10 +8,10 @@
     <button id="btn__current">current series</button>
   </div>
   <div class="container container__card">
-    @foreach ($games as $game)
+    @foreach ($comics as $comic)
     <article class="card">
-      <img src="{{$game['thumb']}}" alt="">
-      <div>{{ $game['series'] }}</div>
+      <img src="{{$comic['thumb']}}" alt="">
+      <div>{{ $comic['series'] }}</div>
     </article>
     @endforeach
   </div>

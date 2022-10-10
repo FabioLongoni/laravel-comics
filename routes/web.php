@@ -15,11 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::get('/games',function(){
+Route::get('/comics/{id}', function($id) {
+    $comics = config('comics');
+    if($id < count($comics)) {
+        $comic = $comics[$id];
+        $data = [
+            'comic' => $comic
+        ];
+        return view('comics.show',$data);
+    }else {
+        abort(404);
+    }
+})->where('id', '[0-9]+')->name('comic');
+
+Route::get('/comics',function(){
     $data = [
-        'games' => config('comics')
+        'comics' => config('comics')
     ];
-    return view('games',$data);
-});
+    return view('comics.index',$data);
+})->name('comics');
