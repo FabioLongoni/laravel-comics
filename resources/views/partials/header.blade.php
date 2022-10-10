@@ -35,7 +35,7 @@
         'text' => 'shop',
       ],
     ];
-  @endphp
+    @endphp
 
     <ul class="nav-bar-header">
       @foreach($links as $link)

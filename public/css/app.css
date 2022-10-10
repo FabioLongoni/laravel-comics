@@ -28,6 +28,114 @@
   align-items: center;
 }
 
+.footer__first__section {
+  background-color: #0282f9;
+  overflow: hidden;
+}
+
+.footer__first__section .small__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.footer__first__section .small__container ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer__first__section .small__container ul li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer__first__section .small__container ul li img {
+  width: 40px;
+}
+
+.footer__second__section {
+  color: white;
+  background-image: url("/img/footer-bg.jpg");
+}
+
+.footer__second__section .container {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__second__section .container .ul__wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer__second__section .container img {
+  transform: scale(0.9, 0.9);
+}
+
+.footer__second__section .container li {
+  color: #999b94;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.footer__second__section .container h3 {
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.footer__third__section {
+  background-color: #303030;
+  padding: 2rem 0;
+}
+
+.footer__third__section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__third__section .container .footer__media {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer__third__section .container .footer__media .footer__icon {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__third__section .container .footer__media span {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer__third__section .sign__up__button {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+
+.footer__third__section .sign__up__button a {
+  padding: 1rem;
+  border: 2px solid #0282f9;
+}
+
 * {
   margin: 0;
   padding: 0;
