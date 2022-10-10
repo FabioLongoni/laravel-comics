@@ -9,10 +9,12 @@
   </div>
   <div class="container container__card">
     @foreach ($comics as $comic)
-    <article class="card">
-      <img src="{{$comic['thumb']}}" alt="">
-      <div>{{ $comic['series'] }}</div>
-    </article>
+      <article class="card">
+        <a href="{{route('comic',$loop->index)}}">
+          <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+          <div>{{ $comic['series'] }}</div>
+        </a>
+      </article>
     @endforeach
   </div>
   <div class="main__button container">

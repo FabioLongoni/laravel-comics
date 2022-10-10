@@ -1,6 +1,8 @@
 <header>
   <div class="container__lg">
-    <img src="{{asset('img/dc-logo.png')}}" alt="logo Dc-Comics">
+    <a href="">
+      <img src="{{asset('img/dc-logo.png')}}" alt="logo Dc-Comics">
+    </a>  
     @php 
 
     $links = [
