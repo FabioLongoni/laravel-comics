@@ -86,16 +86,16 @@
     ];
     $icons = [
         [
-          'img' => '../public/img/footer-facebook.png'
+          'img' => 'img/footer-facebook.png'
         ],
         [
-          'img' => '../public/img/footer-pinterest.png'
+          'img' => 'img/footer-pinterest.png'
         ],
         [
-          'img' => '../public/img/footer-twitter.png'
+          'img' => 'img/footer-twitter.png'
         ],
         [
-          'img' => '../public/img/footer-youtube.png'
+          'img' => 'img/footer-youtube.png'
         ]
     ];
     $listCards = [

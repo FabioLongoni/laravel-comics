@@ -17,3 +17,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/games',function(){
+    $data = [
+        'games' => config('videoGames')
+    ];
+    return view('games',$data);
+});

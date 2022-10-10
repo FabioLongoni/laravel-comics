@@ -136,6 +136,76 @@
   border: 2px solid #0282f9;
 }
 
+.main__content {
+  background-color: #1c1c1c;
+}
+
+.main__content .container__card {
+  color: white;
+  padding: 2.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+}
+
+.main__content .hero {
+  height: 300px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top, center;
+  position: relative;
+}
+
+.main__content .hero #btn__current {
+  position: absolute;
+  background-color: #0282f9;
+  color: white;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  border: none;
+  bottom: 0;
+  left: 4rem;
+  transform: translateY(50%);
+  font-weight: bold;
+}
+
+.main__content .main__button {
+  text-align: center;
+  padding-bottom: 0.75rem;
+}
+
+.main__content .main__button #load__button {
+  background-color: #0282f9;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.card img {
+  width: 200px;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
