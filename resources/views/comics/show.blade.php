@@ -25,7 +25,7 @@
             available
           </div>
         </div>
-        <div>
+        <div class="description">
           {{$comic['description']}}
         </div>
       </div>
@@ -34,6 +34,19 @@
       </div>
     </div>
   </div>
+  {{-- <div class="art__write">
+    <div class="container__sm">
+      <h3>talent</h3>
+      <div class="artist">
+        <div>
+          Art by:
+        </div>
+        <div>
+          {{$comic['artists']}}
+        </div>
+      </div>
+    </div>
+  </div> --}}
 </div>
 
 @endsection

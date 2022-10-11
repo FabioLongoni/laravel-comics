@@ -1,7 +1,6 @@
 .container__lg {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -10,16 +9,18 @@
   line-height: 100%;
   text-transform: uppercase;
   font-size: 12px;
+  padding: 1.9rem 0;
 }
 
 .container__lg .list-item.active,
 .container__lg .list-item:hover {
   color: #0282f9;
-  border-bottom: 2px solid #0282f9;
+  border-bottom: 4px solid #0282f9;
 }
 
 .container__lg img {
   width: 60px;
+  padding: 0.75rem 0;
 }
 
 .container__lg .nav-bar-header {
@@ -250,11 +251,25 @@
 
 .container__sm .info__price {
   display: flex;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1rem;
+  background-color: #55ba59;
+  margin: 1rem 0;
 }
 
 .container__sm .info__price .av {
   flex-grow: 1;
   text-align: end;
+}
+
+.container__sm .description {
+  font-size: 12px;
+}
+
+.art__write {
+  background-color: #f6f6f6;
+  border-top: 1px solid rgb(194, 187, 187);
 }
 
 * {

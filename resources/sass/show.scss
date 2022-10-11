@@ -37,10 +37,23 @@
   }
   .info__price {
     display: flex;
+    line-height: 10px;
+    letter-spacing: .05em;
+    padding: 0.75rem 1rem;
+    background-color: #55ba59;
+    margin: 1rem 0;
     .av {
       flex-grow: 1;
       text-align: end;
     }
   }
+  .description {
+    font-size: 12px;
+  }
+}
+
+.art__write {
+  background-color: #f6f6f6;
+  border-top: 1px solid rgb(194, 187, 187);
 }
 
