@@ -86,37 +86,37 @@
     ];
     $icons = [
         [
-          'img' => 'img/footer-facebook.png'
+          'img' => '/img/footer-facebook.png'
         ],
         [
-          'img' => 'img/footer-pinterest.png'
+          'img' => '/img/footer-pinterest.png'
         ],
         [
-          'img' => 'img/footer-twitter.png'
+          'img' => '/img/footer-twitter.png'
         ],
         [
-          'img' => 'img/footer-youtube.png'
+          'img' => '/img/footer-youtube.png'
         ]
     ];
     $listCards = [
         [
-          'image'=> "img/buy-comics-digital-comics.png",
+          'image'=> "/img/buy-comics-digital-comics.png",
           'text'=> "digital comics"
         ],
         [
-          'image'=> 'img/buy-comics-merchandise.png',
+          'image'=> '/img/buy-comics-merchandise.png',
           'text'=> "dc merchandise"
         ],
         [
-          'image'=> 'img/buy-comics-subscriptions.png',
+          'image'=> '/img/buy-comics-subscriptions.png',
           'text'=> "subscription"
         ],
         [
-          'image'=> 'img/buy-comics-shop-locator.png',
+          'image'=> '/img/buy-comics-shop-locator.png',
           'text'=> "comic shop locator"
         ],
         [
-          'image'=> 'img/buy-dc-power-visa.svg',
+          'image'=> '/img/buy-dc-power-visa.svg',
           'text'=> "dc power visa"
         ]
     ];

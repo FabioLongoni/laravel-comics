@@ -16,35 +16,39 @@
       ],
       [
         'text' => 'movies',
+        'routeName' => 'movies'
       ],
       [
         'text' => 'tv',
-      ],
-      [
-        'text' => 'movies',
+        'routeName' => 'tv'
       ],
       [
         'text' => 'collectibles',
+        'routeName' => 'collectibles'
       ],
       [
         'text' => 'videos',
+        'routeName' => 'videos'
       ],
       [
         'text' => 'fans',
+        'routeName' => 'fans'
       ],
       [
         'text' => 'news',
+        'routeName' => 'news'
       ],
       [
         'text' => 'shop',
-      ],
+        'routeName' => 'shop'
+      ]
     ];
     @endphp
 
     <ul class="nav-bar-header">
       @foreach($links as $link)
-        <li class="list-item {{ $loop->first ? 'active' : '' }}">
-          <a class="" 
+        <li class="">
+          <a class="list-item {{ Route::currentRouteName() === $link['routeName'] ? 'active' : '' }}" 
             href="{{isset($link['routeName']) ? route($link['routeName']) : '/'}}">
             {{ $link['text'] }}
           </a>

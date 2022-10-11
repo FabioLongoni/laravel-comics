@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('mataTitle','DcComics - Comics')
+@section('metaTitle', 'DcComics - Comics')
 
 @section('content')
 <section class="main__content">
